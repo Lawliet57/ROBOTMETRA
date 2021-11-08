@@ -5594,9 +5594,9 @@
     "restore": {
       "projectUniqueName": "Robot METRA",
       "projectName": "Robot METRA",
-      "projectPath": "C:\\Users\\Support\\Desktop\\Robot METRA\\.local",
+      "projectPath": "C:\\Users\\Support\\Robot METRA\\.local",
       "packagesPath": "C:\\Users\\Support\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Support\\Desktop\\Robot METRA\\.local"
+      "outputPath": "C:\\Users\\Support\\Robot METRA\\.local"
     },
     "frameworks": {
       "net461": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U7EbEX/v+yAB7dFQwwaFGVxwBiHMrMycW1pK9vEThlgd84pBVyKDlK+85yeBHNNo12ttWWn8F6pN+7dWh/36Pg==",
+  "dgSpecHash": "wVCLPEkbf+s48o129sWOvjVHvnSk7Va4npiNUuxhY8yLkAQhMGFfqkKvFH370ge9QKc2DcQ5Dh759W8Huj9xoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Support\\Desktop\\Robot METRA\\.local\\",
+  "projectFilePath": "C:\\Users\\Support\\Robot METRA\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Support\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\bitmiracle.docotic.pdf.7.5.11645.nupkg.sha512",
     "C:\\Users\\Support\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
