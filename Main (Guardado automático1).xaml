@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1130.4,8727.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1130.4,5528.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="72">
+    <scg:List x:TypeArguments="x:String" Capacity="40">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -44,7 +44,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="64">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="35">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -88,7 +88,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Secuencia MAIN" sap:VirtualizedContainerService.HintSize="591.2,8662.4" sap2010:WorkflowViewState.IdRef="Sequence_26">
+  <Sequence DisplayName="Secuencia MAIN" sap:VirtualizedContainerService.HintSize="635.2,5464" sap2010:WorkflowViewState.IdRef="Sequence_26">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="SignosVitalesEPI" />
       <Variable x:TypeArguments="sd:DataTable" Name="CardiologiaEPI" />
@@ -148,7 +148,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="549.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="593.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_8">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="416.8,669.6" sap2010:WorkflowViewState.IdRef="Sequence_186">
           <sap:WorkflowViewStateService.ViewState>
@@ -185,13 +185,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <Sequence DisplayName="Secuencia Global" sap:VirtualizedContainerService.HintSize="549.6,8384" sap2010:WorkflowViewState.IdRef="Sequence_68">
+    <Sequence DisplayName="Secuencia Global" sap:VirtualizedContainerService.HintSize="593.6,5185.6" sap2010:WorkflowViewState.IdRef="Sequence_68">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Usuarios" sap:VirtualizedContainerService.HintSize="508,762.4" sap2010:WorkflowViewState.IdRef="Sequence_73">
+      <Sequence DisplayName="Usuarios" sap:VirtualizedContainerService.HintSize="552,762.4" sap2010:WorkflowViewState.IdRef="Sequence_73">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -763,68 +763,69 @@
           </ui:InputDialog.Result>
         </ui:InputDialog>
       </Sequence>
-      <Sequence DisplayName="Secuencia METRA" sap:VirtualizedContainerService.HintSize="508,7488.8" sap2010:WorkflowViewState.IdRef="Sequence_67">
+      <Sequence DisplayName="Secuencia METRA" sap:VirtualizedContainerService.HintSize="552,4290.4" sap2010:WorkflowViewState.IdRef="Sequence_67">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Base de datos" sap:VirtualizedContainerService.HintSize="466.4,68.8" sap2010:WorkflowViewState.IdRef="Sequence_131">
+        <Sequence DisplayName="Base de datos" sap:VirtualizedContainerService.HintSize="510.4,68.8" sap2010:WorkflowViewState.IdRef="Sequence_131">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Ámbito de aplicación de Excel" sap:VirtualizedContainerService.HintSize="434,752.666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" WorkbookPath="Prueba METRA.xlsx">
+          <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Ámbito de aplicación de Excel" sap:VirtualizedContainerService.HintSize="433.6,52.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" WorkbookPath="Prueba METRA.xlsx">
             <ui:ExcelApplicationScope.Body>
               <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="376,644" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="375.2,652.8" sap2010:WorkflowViewState.IdRef="Sequence_60">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:ExcelReadRange AddHeaders="True" DataTable="[SignosVitalesEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_4" SheetName="METRA">
+                  <ui:ExcelReadRange AddHeaders="True" DataTable="[SignosVitalesEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_4" SheetName="METRA">
                     <ui:ExcelReadRange.Range>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
                       </InArgument>
                     </ui:ExcelReadRange.Range>
                   </ui:ExcelReadRange>
-                  <ui:ExcelReadRange AddHeaders="True" DataTable="[LaboratorioEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_5" SheetName="METRA2">
+                  <ui:ExcelReadRange AddHeaders="True" DataTable="[LaboratorioEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_5" SheetName="METRA2">
                     <ui:ExcelReadRange.Range>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
                       </InArgument>
                     </ui:ExcelReadRange.Range>
                   </ui:ExcelReadRange>
-                  <ui:ExcelReadRange AddHeaders="True" DataTable="[CardiologiaEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_6" SheetName="METRA3">
+                  <ui:ExcelReadRange AddHeaders="True" DataTable="[CardiologiaEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_6" SheetName="METRA3">
                     <ui:ExcelReadRange.Range>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
                       </InArgument>
                     </ui:ExcelReadRange.Range>
                   </ui:ExcelReadRange>
-                  <ui:ExcelReadRange AddHeaders="True" DataTable="[OftalmologiaEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_7" SheetName="METRA4">
+                  <ui:ExcelReadRange AddHeaders="True" DataTable="[OftalmologiaEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_7" SheetName="METRA4">
                     <ui:ExcelReadRange.Range>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
                       </InArgument>
                     </ui:ExcelReadRange.Range>
                   </ui:ExcelReadRange>
-                  <ui:ExcelReadRange AddHeaders="True" DataTable="[Heredofamiliares]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_8" SheetName="METRA5">
+                  <ui:ExcelReadRange AddHeaders="True" DataTable="[Heredofamiliares]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_8" SheetName="METRA5">
                     <ui:ExcelReadRange.Range>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
                       </InArgument>
                     </ui:ExcelReadRange.Range>
                   </ui:ExcelReadRange>
-                  <ui:ExcelReadRange AddHeaders="True" DataTable="[AudiologiaEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelReadRange_9" SheetName="METRA6">
+                  <ui:ExcelReadRange AddHeaders="True" DataTable="[AudiologiaEPI]" DisplayName="Leer rango" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_9" SheetName="METRA6">
                     <ui:ExcelReadRange.Range>
                       <InArgument x:TypeArguments="x:String">
                         <Literal x:TypeArguments="x:String" Value="" />
@@ -834,28 +835,34 @@
                 </Sequence>
               </ActivityAction>
             </ui:ExcelApplicationScope.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
           </ui:ExcelApplicationScope>
-          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[SignosVitalesEPI.Rows.Count.ToString]" />
-          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[LaboratorioEPI.Rows.Count.ToString]" />
-          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="[CardiologiaEPI.Rows.Count.ToString]" />
-          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[OftalmologiaEPI.Rows.Count.ToString]" />
-          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[Heredofamiliares.Rows.Count.ToString]" />
-          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_12" Text="[AudiologiaEPI.Rows.Count.ToString]" />
+          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[SignosVitalesEPI.Rows.Count.ToString]" />
+          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[LaboratorioEPI.Rows.Count.ToString]" />
+          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="[CardiologiaEPI.Rows.Count.ToString]" />
+          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[OftalmologiaEPI.Rows.Count.ToString]" />
+          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[Heredofamiliares.Rows.Count.ToString]" />
+          <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_12" Text="[AudiologiaEPI.Rows.Count.ToString]" />
         </Sequence>
-        <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Abrir navegador" sap:VirtualizedContainerService.HintSize="466.4,7287.2" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://metra.sct.gob.mx/epi/login.jsp">
+        <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Abrir navegador" sap:VirtualizedContainerService.HintSize="510.4,4088.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://metra.sct.gob.mx/epi/login.jsp">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="EPI" sap:VirtualizedContainerService.HintSize="416.8,7184.8" sap2010:WorkflowViewState.IdRef="Sequence_66">
+              <Sequence DisplayName="EPI" sap:VirtualizedContainerService.HintSize="476.8,3986.4" sap2010:WorkflowViewState.IdRef="Sequence_66">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Inicio de sesion" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_128">
+                <Sequence DisplayName="Inicio de sesion" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_128">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -968,7 +975,7 @@
                   </ui:SendHotkey>
                   <Delay DisplayName="Retraso" Duration="00:00:02" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_10" />
                 </Sequence>
-                <Sequence DisplayName="Inicio de EPI" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_129">
+                <Sequence DisplayName="Inicio de EPI" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_129">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1058,7 +1065,7 @@
                   </ui:Click>
                   <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="Delay_15" />
                 </Sequence>
-                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="375.2,60" sap2010:WorkflowViewState.IdRef="Assign_106">
+                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="435.2,60" sap2010:WorkflowViewState.IdRef="Assign_106">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Int32">[NumFila]</OutArgument>
                   </Assign.To>
@@ -1066,8 +1073,8 @@
                     <InArgument x:TypeArguments="x:Int32">[NumFila+1]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_52" />
-                <Sequence DisplayName="Signos Vitales" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_52" />
+                <Sequence DisplayName="Signos Vitales" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_112">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1347,8 +1354,8 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_21" />
-                <Sequence DisplayName="Laboratorio" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_113">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_21" />
+                <Sequence DisplayName="Laboratorio" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_113">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1512,12 +1519,15 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_22" />
-                <Sequence DisplayName="Cardiologia" sap:VirtualizedContainerService.HintSize="375.2,5171.2" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_22" />
+                <Sequence DisplayName="Cardiologia" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="EKG" />
+                  </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clic 'SVG'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_64" KeyModifiers="None" MouseButton="BTN_LEFT">
@@ -1644,7 +1654,7 @@
                       </ui:CursorPosition>
                     </ui:Click.CursorPosition>
                     <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="686cfa0b-02e4-4912-b8af-f2dec4fc2e68" InformativeScreenshot="4593d25c688fa48e7b48fbc42f199a97" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd ctrlid='1001' title='Dirección: C:\Users\Support\Desktop\Alternativos\8 nov' /&gt;&lt;ctrl name='Dirección: C:\Users\Support\Desktop\Alternativos\8 nov' role='tool bar' /&gt;&lt;ctrl name='Escritorio' role='split button' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="686cfa0b-02e4-4912-b8af-f2dec4fc2e68" InformativeScreenshot="780d5649f97fab5aedcffb7a127a3bad" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd ctrlid='1001' title='Dirección: C:\Users\Support\Desktop\Documentos DW\Base EKG 2\Bas*' /&gt;&lt;ctrl name='Dirección: C:\Users\Support\Desktop\Documentos DW\Base EKG 2\Bas*' role='tool bar' /&gt;&lt;ctrl name='Todas las ubicaciones' role='split button' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -1654,19 +1664,9 @@
                       </ui:Target>
                     </ui:Click.Target>
                   </ui:Click>
-                  <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clic 'editable text  Nombre'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_519" KeyModifiers="None" MouseButton="BTN_LEFT">
-                    <ui:Click.CursorPosition>
-                      <ui:CursorPosition Position="Center">
-                        <ui:CursorPosition.OffsetX>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetX>
-                        <ui:CursorPosition.OffsetY>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetY>
-                      </ui:CursorPosition>
-                    </ui:Click.CursorPosition>
-                    <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="df46c7d7-5663-4e37-8530-573376bed41b" InformativeScreenshot="ef83deaf800e8220895e84535543f2c9" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='5' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;">
+                  <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Establecer texto 'split button'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="SetValue_2" Text="C:\Users\Support\Desktop\Documentos DW\Base EKG 2\Base EKG">
+                    <ui:SetValue.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2f29d215-a28a-47a2-bfe3-e057cc64f1ba" InformativeScreenshot="780d5649f97fab5aedcffb7a127a3bad" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd ctrlid='1001' title='Dirección: C:\Users\Support\Desktop\Documentos DW\Base EKG 2\Bas*' /&gt;&lt;ctrl name='Dirección: C:\Users\Support\Desktop\Documentos DW\Base EKG 2\Bas*' role='tool bar' /&gt;&lt;ctrl name='Todas las ubicaciones' role='split button' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -1674,11 +1674,11 @@
                           <InArgument x:TypeArguments="ui:WaitForReady" />
                         </ui:Target.WaitForReady>
                       </ui:Target>
-                    </ui:Click.Target>
-                  </ui:Click>
-                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Enviar tecla de acceso rápido 'Button'" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="SendHotkey_319" Key="enter" KeyModifiers="None" SpecialKey="True">
+                    </ui:SetValue.Target>
+                  </ui:SetValue>
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Enviar tecla de acceso rápido" sap:VirtualizedContainerService.HintSize="333.6,117.6" sap2010:WorkflowViewState.IdRef="SendHotkey_322" Key="enter" KeyModifiers="None" SpecialKey="True">
                     <ui:SendHotkey.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d835e3be-0aad-454d-aa0d-5374031cfdb7" InformativeScreenshot="660cc90ea6adde409ab9f9e9349e6a9b" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='5' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b6284488-7e65-4d00-98dc-9fb6afa9f37a">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -1688,75 +1688,15 @@
                       </ui:Target>
                     </ui:SendHotkey.Target>
                   </ui:SendHotkey>
-                  <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clic 'editable text  Nombre'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_520" KeyModifiers="None" MouseButton="BTN_LEFT">
-                    <ui:Click.CursorPosition>
-                      <ui:CursorPosition Position="Center">
-                        <ui:CursorPosition.OffsetX>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetX>
-                        <ui:CursorPosition.OffsetY>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetY>
-                      </ui:CursorPosition>
-                    </ui:Click.CursorPosition>
-                    <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3368a28b-c509-43e8-8d9d-8fe5f13759b4" InformativeScreenshot="dbd98efca0fe574ef210a6776daa4177" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:Click.Target>
-                  </ui:Click>
-                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Enviar tecla de acceso rápido 'editable text  Nombre'" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="SendHotkey_320" Key="enter" KeyModifiers="None" SpecialKey="True">
-                    <ui:SendHotkey.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8914c905-c34e-40e7-a878-45b04425a1e4" InformativeScreenshot="d3c5fa07968588bfc07737132d79531c" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:SendHotkey.Target>
-                  </ui:SendHotkey>
-                  <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clic 'editable text  Nombre'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_521" KeyModifiers="None" MouseButton="BTN_LEFT">
-                    <ui:Click.CursorPosition>
-                      <ui:CursorPosition Position="Center">
-                        <ui:CursorPosition.OffsetX>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetX>
-                        <ui:CursorPosition.OffsetY>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetY>
-                      </ui:CursorPosition>
-                    </ui:Click.CursorPosition>
-                    <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4e2b2dae-c5d8-4af1-aab4-54cfa928b8d4" InformativeScreenshot="86843fc1ad63b7803d8dfb465e5038c8" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='1' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:Click.Target>
-                  </ui:Click>
-                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Enviar tecla de acceso rápido 'editable text  Nombre'" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="SendHotkey_321" Key="enter" KeyModifiers="None" SpecialKey="True">
-                    <ui:SendHotkey.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4106cedd-179b-4aa0-aea6-d10ac7f269d5" InformativeScreenshot="86843fc1ad63b7803d8dfb465e5038c8" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='1' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:SendHotkey.Target>
-                  </ui:SendHotkey>
-                  <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Establecer texto 'Edit'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="SetValue_1" Text="50">
+                  <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_133">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[EKG]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[new system.Random().Next(1,155).ToString]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Establecer texto 'Edit'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="SetValue_1" Text="[EKG]">
                     <ui:SetValue.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e942e3f5-49aa-44a7-9979-538eaedb9544" InformativeScreenshot="3fb9cce4e7b99da259b0982c35121c83" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                         <ui:Target.TimeoutMS>
@@ -2272,8 +2212,8 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_23" />
-                <Sequence DisplayName="Psicologia" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_23" />
+                <Sequence DisplayName="Psicologia" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_71">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2641,8 +2581,8 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_24" />
-                <Sequence DisplayName="Oftalmologia" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_123">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_24" />
+                <Sequence DisplayName="Oftalmologia" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_123">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4448,8 +4388,8 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_25" />
-                <Sequence DisplayName="Odontologia" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_25" />
+                <Sequence DisplayName="Odontologia" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_72">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4677,8 +4617,8 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_26" />
-                <Sequence DisplayName="Historia Clinica" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_124">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_26" />
+                <Sequence DisplayName="Historia Clinica" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_124">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -11710,8 +11650,8 @@
                     </ui:Click>
                   </Sequence>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_53" />
-                <Sequence DisplayName="Audiologia" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_53" />
+                <Sequence DisplayName="Audiologia" sap:VirtualizedContainerService.HintSize="435.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_125">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -21221,8 +21161,8 @@
                     </ui:Click.Target>
                   </ui:Click>
                 </Sequence>
-                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_54" />
-                <Sequence DisplayName="Diagnosticos" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_126">
+                <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_54" />
+                <Sequence DisplayName="Diagnosticos" sap:VirtualizedContainerService.HintSize="376,1972.8" sap2010:WorkflowViewState.IdRef="Sequence_126">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -21564,7 +21504,7 @@
         </ui:OpenBrowser>
       </Sequence>
     </Sequence>
-    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="549.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_9">
+    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="593.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_9">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="241.6,115.2" sap2010:WorkflowViewState.IdRef="Sequence_187">
           <sap:WorkflowViewStateService.ViewState>
