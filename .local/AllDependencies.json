@@ -5588,15 +5588,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Support\\.nuget\\packages\\": {}
+    "C:\\Users\\Direccion Soporte\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Robot METRA",
       "projectName": "Robot METRA",
-      "projectPath": "C:\\Users\\Support\\Robot METRA\\.local",
-      "packagesPath": "C:\\Users\\Support\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Support\\Robot METRA\\.local"
+      "projectPath": "C:\\Users\\Direccion Soporte\\Documents\\ROBOT GIT\\ROBOTMETRA\\.local",
+      "packagesPath": "C:\\Users\\Direccion Soporte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Direccion Soporte\\Documents\\ROBOT GIT\\ROBOTMETRA\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5642,7 +5642,7 @@
             "version": "[21.4.4, 21.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Direccion Soporte\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
